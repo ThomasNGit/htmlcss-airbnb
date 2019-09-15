@@ -8,9 +8,8 @@
 /* regole container generale */
 .container {
   width: 90%;
-  height: 100vh;
-  background-color: rgb(226, 224, 224);
-  position: relative;
+  height: 100%;
+  background-color: lightblue;
   margin: 2% 5%;
 }
 
@@ -21,14 +20,24 @@
   height: 31%;
   border: 1px solid black;
   margin: 1% 5%;
+  position: relative;
+
 }
+
 
 /* regole delle immagini */
 
 .img {
   height: 100%;
   width: 100%;
+}
 
-
-
+/* regole delle scritte */
+.city {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
 }
