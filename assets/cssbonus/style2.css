@@ -8,7 +8,7 @@
 /* regole container generale */
 .container {
   width: 90%;
-  height: 100%;
+  height: 100vh;
   background-color: lightblue;
   margin: 2% 5%;
 }
@@ -20,8 +20,10 @@
   height: 31%;
   border: 1px solid black;
   margin: 1% 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
   position: relative;
-
+  box-shadow: 3px 3px black;
 }
 
 
@@ -40,4 +42,5 @@
   transform: translate(-50%, -50%);
   font-size: 30px;
   color: white;
+  text-shadow: 5px 3px black;
 }
