@@ -7,17 +7,28 @@
 
 /* regole container generale */
 .container {
-  width: 100%;
+  width: 90%;
   height: 100vh;
   background-color: rgb(226, 224, 224);
-  position: absolute;
+  position: relative;
+  margin: 2% 5%;
 }
 
 /* regole dei buttons */
 
 .button {
-  width: 60%;
-  height: 33vh;
-  background: red;
-  margin: 0 20%;
+  width: 90%;
+  height: 31%;
+  border: 1px solid black;
+  margin: 1% 5%;
+}
+
+/* regole delle immagini */
+
+.img {
+  height: 100%;
+  width: 100%;
+
+
+
 }
