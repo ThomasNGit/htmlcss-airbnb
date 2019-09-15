@@ -8,7 +8,7 @@
 /* regole container generale */
 .container {
   width: 90%;
-  height: 100vh;
+  height: 100%;
   background-color: lightblue;
   margin: 2% 5%;
 }
@@ -17,13 +17,17 @@
 
 .button {
   width: 90%;
-  height: 31%;
+  height: 31vh;
   border: 1px solid black;
   margin: 1% 5%;
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
   box-shadow: 3px 3px black;
+}
+
+.button:hover{
+  transform: scale(0.8);
 }
 
 
